@@ -8,11 +8,11 @@ static const char *fonts[] = {"Ubuntu Nerd Font:pixelsize=14"};
 static const char *prompt =
     NULL; /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
-    [SchemeNorm] = {"#ebdbb2", "#282828"},
-    [SchemeSel] = {"#ebdbb2", "#3c3836"},
-    [SchemeSelHighlight] = {"#cc241d", "#3c3836"},
-    [SchemeNormHighlight] = {"#cc241d", "#282828"},
-    [SchemeOut] = {"#282828", "#458588"},
+    [SchemeNorm] = {"#d8dee9", "#2e3440"},
+    [SchemeSel] = {"#d8dee9", "#3b4252"},
+    [SchemeSelHighlight] = {"#bf616a", "#3b4252"},
+    [SchemeNormHighlight] = {"#bf616a", "#2e3440"},
+    [SchemeOut] = {"#2e3440", "#81a1c1"},
 };
 /* -l and -g options; controls number of lines and columns in grid if > 0 */
 static unsigned int lines = 10;
