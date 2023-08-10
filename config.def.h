@@ -8,7 +8,7 @@ static const char *colors[SchemeLast][2] = {
     [SchemeSel] = {"#88c0d0", "#4c566a"},
     [SchemeSelHighlight] = {"#bf616a", "#4c566a"},
     [SchemeNormHighlight] = {"#bf616a", "#3b4252"},
-    [SchemeOut] = {"#3b4252", "#81a1c1"},
+    [SchemeOut] = {"#88c0d0", "#4c566a"},
 };
 
 static unsigned int lines = 10;
