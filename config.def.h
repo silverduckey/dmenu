@@ -11,7 +11,7 @@ static const char *colors[SchemeLast][2] = {
     [SchemeOut] = {"#88c0d0", "#4c566a"},
 };
 
-static unsigned int lines = 10;
+static unsigned int lines = 20;
 static unsigned int columns = 5;
 
 static const char worddelimiters[] = " ";
