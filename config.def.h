@@ -9,12 +9,12 @@ static const char *fonts[] = {
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
-	/*     fg         bg       */
-	[SchemeNorm] = { "#d8dee9", "#3b4252" },
-	[SchemeSel] = { "#88c0d0", "#4c566a" },
-	[SchemeSelHighlight] = { "#ebcb8b", "#4c566a" },
-	[SchemeNormHighlight] = { "#ebcb8b", "#3b4252" },
-	[SchemeOut] = { "#88c0d0", "#4c566a" },
+                    /*     fg         bg       */
+	[SchemeNorm] = { "#45475a", "#181825" },
+	[SchemeSel] = { "#a6e3a1", "#45475a" },
+	[SchemeSelHighlight] = { "#f9e2af", "#4c566a" },
+	[SchemeNormHighlight] = { "#f9e2af", "#181825" },
+	[SchemeOut] = { "#a6e3a1", "#45475a" },
 };
 /* -l and -g options; controls number of lines and columns in grid if > 0 */
 static unsigned int lines      = 20;
