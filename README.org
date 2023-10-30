@@ -1,0 +1,9 @@
+** Installation:
+:PROPERTIES:
+:CUSTOM_ID: installation
+:END:
+#+begin_example
+git clone https://gitlab.com/vu20022012/dmenu ~/.dmenu
+cd ~/.dmenu
+sudo make clean install
+#+end_example
